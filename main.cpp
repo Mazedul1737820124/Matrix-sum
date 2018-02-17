@@ -28,7 +28,7 @@ int main() {
 
     for (int i = 0; i < n ; ++i) {
         for (int j = 0; j < m ; ++j) {
-            //sum[i][j] = a[i][j] + b[i][j];
+         
             cout<<" "<<a[i][j] <<" + "<<b[i][j]<<" ";
         }
         cout <<"\n";
@@ -38,7 +38,7 @@ int main() {
 
     for (int i = 0; i < n ; ++i) {
         for (int j = 0; j < m; ++j) {
-            sum = a[i][j] - b[i][j];
+            sum = a[i][j] + b[i][j];
             cout<<" "<<sum<<"  ";
         }
         cout<<"\n";
